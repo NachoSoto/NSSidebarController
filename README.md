@@ -16,24 +16,31 @@ SidebarController is designed to be used in a similar way as how you use UINavig
  
 ## Usage
 
-### Initializing SidebarController
+### You can instantiate it just like a UINavigationController
 
-You can instantiate it just like a UINavigationController:
+``` objective-c
   SidebarController *controller = [[SidebarController alloc] initWithMainController:controller];
+```
 
-Then, you can set the left and/or right controllers
+### Then, you can set the left and/or right controllers
+
+``` objective-c
   controller.leftController = leftController;
   controller.rightController = rightController;
+```
 
-### Showing menus
+### Whenever you want to show either menu, from your main controller you call:
 
-Whenever you want to show either menu, from your main controller you call:
+``` objective-c
   [self.sidebarController showLeftController];
-or
   [self.sidebarController showRightController];
+```
 
-And from the menus you can easily replace the main controller, and this will animate nicely to show the new one:
+### And from the menus you can easily replace the main controller, and this will animate nicely to show the new one:
+
+``` objective-c
   [self.sidebarController replaceMainController:newController];
+```
 
 ## Contact
 
