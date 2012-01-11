@@ -19,7 +19,7 @@ SidebarController is designed to be used in a similar way as how you use UINavig
 ### You can instantiate it just like a UINavigationController
 
 ``` objective-c
-  SidebarController *controller = [[SidebarController alloc] initWithMainController:controller];
+  SidebarController *controller = [[SidebarController alloc] initWithMainController:mainController];
 ```
 
 ### Then, you can set the left and/or right controllers
@@ -43,7 +43,6 @@ SidebarController is designed to be used in a similar way as how you use UINavig
 ```
 
 ## Contact
-
 - http://github.com/NachoSoto
 - http://twitter.com/NachoSoto
 - hello@nachosoto.com
