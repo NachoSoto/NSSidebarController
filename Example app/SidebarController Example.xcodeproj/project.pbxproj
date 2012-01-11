@@ -1,0 +1,322 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5711A1C914BD4ACA004A4C23 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5711A1C814BD4ACA004A4C23 /* UIKit.framework */; };
+		5711A1CB14BD4ACA004A4C23 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5711A1CA14BD4ACA004A4C23 /* Foundation.framework */; };
+		5711A1CD14BD4ACA004A4C23 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5711A1CC14BD4ACA004A4C23 /* CoreGraphics.framework */; };
+		5711A1F014BD4BE8004A4C23 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5711A1E914BD4BE8004A4C23 /* InfoPlist.strings */; };
+		5711A1F114BD4BE8004A4C23 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5711A1EB14BD4BE8004A4C23 /* main.m */; };
+		5711A1F214BD4BE8004A4C23 /* NSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5711A1ED14BD4BE8004A4C23 /* NSAppDelegate.m */; };
+		5711A20414BD4D99004A4C23 /* NSSidebarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5711A20114BD4D99004A4C23 /* NSSidebarController.m */; };
+		5711A20514BD4D99004A4C23 /* UIViewController+NSSidebarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5711A20314BD4D99004A4C23 /* UIViewController+NSSidebarController.m */; };
+		5711A21214BD4E39004A4C23 /* MenuTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5711A20914BD4E39004A4C23 /* MenuTVC.m */; };
+		5711A21314BD4E39004A4C23 /* MainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5711A20B14BD4E39004A4C23 /* MainVC.m */; };
+		5711A21414BD4E39004A4C23 /* MainVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5711A20C14BD4E39004A4C23 /* MainVC.xib */; };
+		5711A21614BD4E39004A4C23 /* OtherVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5711A20F14BD4E39004A4C23 /* OtherVC.m */; };
+		5711A21714BD4E39004A4C23 /* OtherVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5711A21014BD4E39004A4C23 /* OtherVC.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5711A1C414BD4ACA004A4C23 /* SidebarController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SidebarController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5711A1C814BD4ACA004A4C23 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5711A1CA14BD4ACA004A4C23 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5711A1CC14BD4ACA004A4C23 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5711A1EA14BD4BE8004A4C23 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5711A1EB14BD4BE8004A4C23 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5711A1EC14BD4BE8004A4C23 /* NSAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSAppDelegate.h; sourceTree = "<group>"; };
+		5711A1ED14BD4BE8004A4C23 /* NSAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSAppDelegate.m; sourceTree = "<group>"; };
+		5711A1EE14BD4BE8004A4C23 /* SidebarController-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SidebarController-Info.plist"; sourceTree = "<group>"; };
+		5711A1EF14BD4BE8004A4C23 /* SidebarController-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SidebarController-Prefix.pch"; sourceTree = "<group>"; };
+		5711A20014BD4D99004A4C23 /* NSSidebarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSSidebarController.h; sourceTree = "<group>"; };
+		5711A20114BD4D99004A4C23 /* NSSidebarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSSidebarController.m; sourceTree = "<group>"; };
+		5711A20214BD4D99004A4C23 /* UIViewController+NSSidebarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+NSSidebarController.h"; sourceTree = "<group>"; };
+		5711A20314BD4D99004A4C23 /* UIViewController+NSSidebarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+NSSidebarController.m"; sourceTree = "<group>"; };
+		5711A20814BD4E39004A4C23 /* MenuTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuTVC.h; sourceTree = "<group>"; };
+		5711A20914BD4E39004A4C23 /* MenuTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuTVC.m; sourceTree = "<group>"; };
+		5711A20A14BD4E39004A4C23 /* MainVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainVC.h; sourceTree = "<group>"; };
+		5711A20B14BD4E39004A4C23 /* MainVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainVC.m; sourceTree = "<group>"; };
+		5711A20C14BD4E39004A4C23 /* MainVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainVC.xib; sourceTree = "<group>"; };
+		5711A20E14BD4E39004A4C23 /* OtherVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OtherVC.h; sourceTree = "<group>"; };
+		5711A20F14BD4E39004A4C23 /* OtherVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OtherVC.m; sourceTree = "<group>"; };
+		5711A21014BD4E39004A4C23 /* OtherVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OtherVC.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5711A1C114BD4ACA004A4C23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5711A1C914BD4ACA004A4C23 /* UIKit.framework in Frameworks */,
+				5711A1CB14BD4ACA004A4C23 /* Foundation.framework in Frameworks */,
+				5711A1CD14BD4ACA004A4C23 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5711A1B914BD4ACA004A4C23 = {
+			isa = PBXGroup;
+			children = (
+				5711A1E814BD4BE8004A4C23 /* SidebarController Example */,
+				5711A1C714BD4ACA004A4C23 /* Frameworks */,
+				5711A1C514BD4ACA004A4C23 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5711A1C514BD4ACA004A4C23 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5711A1C414BD4ACA004A4C23 /* SidebarController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5711A1C714BD4ACA004A4C23 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5711A1C814BD4ACA004A4C23 /* UIKit.framework */,
+				5711A1CA14BD4ACA004A4C23 /* Foundation.framework */,
+				5711A1CC14BD4ACA004A4C23 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5711A1E814BD4BE8004A4C23 /* SidebarController Example */ = {
+			isa = PBXGroup;
+			children = (
+				5711A20714BD4E39004A4C23 /* Controllers */,
+				5711A1FF14BD4D99004A4C23 /* SidebarController */,
+				5711A1EC14BD4BE8004A4C23 /* NSAppDelegate.h */,
+				5711A1ED14BD4BE8004A4C23 /* NSAppDelegate.m */,
+				5711A1F414BD4BF1004A4C23 /* Supporting files */,
+			);
+			path = "SidebarController Example";
+			sourceTree = "<group>";
+		};
+		5711A1F414BD4BF1004A4C23 /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				5711A1E914BD4BE8004A4C23 /* InfoPlist.strings */,
+				5711A1EB14BD4BE8004A4C23 /* main.m */,
+				5711A1EE14BD4BE8004A4C23 /* SidebarController-Info.plist */,
+				5711A1EF14BD4BE8004A4C23 /* SidebarController-Prefix.pch */,
+			);
+			name = "Supporting files";
+			sourceTree = "<group>";
+		};
+		5711A1FF14BD4D99004A4C23 /* SidebarController */ = {
+			isa = PBXGroup;
+			children = (
+				5711A20014BD4D99004A4C23 /* NSSidebarController.h */,
+				5711A20114BD4D99004A4C23 /* NSSidebarController.m */,
+				5711A20214BD4D99004A4C23 /* UIViewController+NSSidebarController.h */,
+				5711A20314BD4D99004A4C23 /* UIViewController+NSSidebarController.m */,
+			);
+			name = SidebarController;
+			path = ../../SidebarController;
+			sourceTree = "<group>";
+		};
+		5711A20714BD4E39004A4C23 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5711A20814BD4E39004A4C23 /* MenuTVC.h */,
+				5711A20914BD4E39004A4C23 /* MenuTVC.m */,
+				5711A20A14BD4E39004A4C23 /* MainVC.h */,
+				5711A20B14BD4E39004A4C23 /* MainVC.m */,
+				5711A20C14BD4E39004A4C23 /* MainVC.xib */,
+				5711A20E14BD4E39004A4C23 /* OtherVC.h */,
+				5711A20F14BD4E39004A4C23 /* OtherVC.m */,
+				5711A21014BD4E39004A4C23 /* OtherVC.xib */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5711A1C314BD4ACA004A4C23 /* SidebarController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5711A1DC14BD4ACA004A4C23 /* Build configuration list for PBXNativeTarget "SidebarController" */;
+			buildPhases = (
+				5711A1C014BD4ACA004A4C23 /* Sources */,
+				5711A1C114BD4ACA004A4C23 /* Frameworks */,
+				5711A1C214BD4ACA004A4C23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SidebarController;
+			productName = SidebarController;
+			productReference = 5711A1C414BD4ACA004A4C23 /* SidebarController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5711A1BB14BD4ACA004A4C23 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = MindSnacks;
+			};
+			buildConfigurationList = 5711A1BE14BD4ACA004A4C23 /* Build configuration list for PBXProject "SidebarController Example" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5711A1B914BD4ACA004A4C23;
+			productRefGroup = 5711A1C514BD4ACA004A4C23 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5711A1C314BD4ACA004A4C23 /* SidebarController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5711A1C214BD4ACA004A4C23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5711A1F014BD4BE8004A4C23 /* InfoPlist.strings in Resources */,
+				5711A21414BD4E39004A4C23 /* MainVC.xib in Resources */,
+				5711A21714BD4E39004A4C23 /* OtherVC.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5711A1C014BD4ACA004A4C23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5711A1F114BD4BE8004A4C23 /* main.m in Sources */,
+				5711A1F214BD4BE8004A4C23 /* NSAppDelegate.m in Sources */,
+				5711A20414BD4D99004A4C23 /* NSSidebarController.m in Sources */,
+				5711A20514BD4D99004A4C23 /* UIViewController+NSSidebarController.m in Sources */,
+				5711A21214BD4E39004A4C23 /* MenuTVC.m in Sources */,
+				5711A21314BD4E39004A4C23 /* MainVC.m in Sources */,
+				5711A21614BD4E39004A4C23 /* OtherVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5711A1E914BD4BE8004A4C23 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5711A1EA14BD4BE8004A4C23 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5711A1DA14BD4ACA004A4C23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5711A1DB14BD4ACA004A4C23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5711A1DD14BD4ACA004A4C23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SidebarController Example/SidebarController-Prefix.pch";
+				INFOPLIST_FILE = "SidebarController Example/SidebarController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5711A1DE14BD4ACA004A4C23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SidebarController Example/SidebarController-Prefix.pch";
+				INFOPLIST_FILE = "SidebarController Example/SidebarController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5711A1BE14BD4ACA004A4C23 /* Build configuration list for PBXProject "SidebarController Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5711A1DA14BD4ACA004A4C23 /* Debug */,
+				5711A1DB14BD4ACA004A4C23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5711A1DC14BD4ACA004A4C23 /* Build configuration list for PBXNativeTarget "SidebarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5711A1DD14BD4ACA004A4C23 /* Debug */,
+				5711A1DE14BD4ACA004A4C23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5711A1BB14BD4ACA004A4C23 /* Project object */;
+}
