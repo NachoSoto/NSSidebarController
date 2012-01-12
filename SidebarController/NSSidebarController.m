@@ -236,8 +236,8 @@ typedef enum {
 
 - (void)reveal:(BOOL)show side:(NSSidebarControllerSide)side
 {    
-    __block UIView *revealedView = nil;
-    __block UIView *mainView = self.mainController.view;
+    UIView *revealedView = nil;
+    UIView *mainView = self.mainController.view;
 
     CGFloat screenWidth = screenWidth();
     CGFloat positionX;
@@ -286,7 +286,7 @@ typedef enum {
 
 - (void)animateMainViewToPosition:(CGFloat)position revealedView:(UIView *)revealedView callback:(void (^)(BOOL finished))callback
 {
-    __block UIView *mainView = self.mainController.view;
+    UIView *mainView = self.mainController.view;
     
     CGFloat screenWidth = screenWidth();
     
